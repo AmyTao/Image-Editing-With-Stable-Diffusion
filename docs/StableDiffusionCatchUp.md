@@ -19,6 +19,8 @@ The difference between two images in sequence.
 
 * up_block in Unet
 
+* text embedding: tockenizer preprocess the data (numerical expression of input tokens)
+
 # Diffusion models Structure
 
 * Goal: learn the distribution of data, by learning reverse process
@@ -67,3 +69,6 @@ for i, t in enumerate(tqdm.tqdm(scheduler.timesteps)):
     if (i + 1) % 50 == 0:
         display_sample(sample, i + 1)
 ```
+
+- logic flow of StableDiffusion
+<img src="/pics/stable_diffusion.png" alt="图片alt" title="图片title">
