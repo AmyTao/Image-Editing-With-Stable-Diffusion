@@ -72,3 +72,6 @@ for i, t in enumerate(tqdm.tqdm(scheduler.timesteps)):
 
 - logic flow of StableDiffusion
 <img src="/pics/stable_diffusion.png" alt="图片alt" title="图片title">
+
+- related papers
+[DiffEdit](/docs/DiffEdit.md)
